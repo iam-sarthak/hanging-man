@@ -1,0 +1,22 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.app {
+  background-image: url("./assets/back.jpg");
+  background-position: bottom;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100vw;
+  padding-top: 5vh;
+}
+.game-border{
+    background-image: url("./assets/back.jpg");
+    background-position: bottom;
+    border: 7px solid black;
+    width: 93%;
+    height: 95%;
+    margin: auto auto ;
+    border-radius: 20px;
+}
