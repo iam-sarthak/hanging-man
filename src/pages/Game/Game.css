@@ -6,6 +6,7 @@
 
 .tree{
     position: relative;
+    z-index: 0;
 }
 
 .tree img{
@@ -18,8 +19,12 @@
     flex-direction: column;
     align-items: center;
 }
+.title{
+    z-index: 2;
+}
 .title img {
     height: 150px;
+    
 }
 .game-content{
     display: flex;
@@ -48,4 +53,34 @@
 }
 .hint{
     font-size: larger;
+    text-align: center;
+}
+
+@media (max-width: 1050px) {
+    .left-side{
+        position: absolute;
+    }
+    .alphabets{
+        margin: 0px 50px;
+    }
+    .alphabets button{
+        font-size:larger;
+        margin: 5px 15px;
+    }
+    .game-content{
+        justify-content: center;
+        height: 100%;
+    }
+    .tree img{
+        height: 50vh;
+    }
+}
+@media (max-width: 750px){
+    .alphabets{
+        margin: 0px 15px;
+    }
+    .alphabets button{
+        font-size: medium;
+        margin: 3px 10px;
+    }
 }
