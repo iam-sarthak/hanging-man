@@ -11,6 +11,7 @@
   width: 100vw;
   padding-top: 5vh;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 .game-border{
     background-image: url("./assets/back.jpg");

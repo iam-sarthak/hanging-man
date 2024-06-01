@@ -72,7 +72,7 @@
         height: 100%;
     }
     .tree img{
-        height: 50vh;
+        height: 40vh;
     }
 }
 @media (max-width: 750px){
@@ -80,7 +80,7 @@
         margin: 0px 15px;
     }
     .alphabets button{
-        font-size: medium;
+        font-size: larger;
         margin: 3px 10px;
     }
 }
